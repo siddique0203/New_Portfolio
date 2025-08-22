@@ -1,0 +1,183 @@
+#form div{
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+     
+}
+#form h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;                 
+    color: #034b94;                     
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+#form label{
+    font-weight: 200;
+    display: block;
+    
+}
+#form input{
+    padding: 10px;
+    text-size-adjust: 18px;
+}
+#form input[name="fullName"],
+#form input[name="email"],
+#form input[name="phone"] {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;  
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    box-sizing: border-box;
+}
+#form button {
+    margin-bottom: 50px auto;
+    margin-top: 50px;
+    margin-left: 110px;
+    background: linear-gradient(45deg, #1e90ff, #00bfff); 
+    color: rgb(0, 0, 0);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(30, 144, 255, 0.4);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+#form button:hover {
+    background: linear-gradient(45deg, #00bfff, #1effb4); 
+    box-shadow: 0 6px 12px rgba(0, 255, 166, 0.6);
+}
+
+
+#form{
+    width: 35%; 
+    margin: 40px auto;                 
+    padding: 40px 30px;               
+    border-radius: 15px;               
+    background: linear-gradient(135deg, #b8c7c7, #9ebbc5, #7fffd4); 
+    color: #000000;                     
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3); 
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+
+
+.cvheader {
+    width: 100%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px; 
+    position: relative; 
+    left:-21px;
+    top:-8px
+}
+
+.cvName {
+    font-size: 25px;
+    text-align: left;
+    
+}
+
+.cvP {
+    font-size: 15px;
+    display: block;
+    margin-top: 5px;
+}
+
+.cvContact {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    text-align: right;
+    
+}
+
+.obj {
+    margin: 10px 20px;
+    position: relative;
+    left:0px;
+    top: -20px;
+}
+
+.objective {
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.aobj {
+    margin-top: -25px;   
+    border: 1px solid black;
+}
+
+.eduName{
+    position: relative;
+    font-size: 19px;
+    font-weight:bold;
+    text-decoration: underline;
+    font-style: italic;
+    left:20px;
+}
+
+.projName {
+    position: relative;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    left: 20px;
+}
+
+.expName {
+    position: relative;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    left: 20px;
+}
+
+.skillName,.othersName {
+    position: relative;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    left: 20px;
+}
+.askills, .aothers, .aexp, .aproj, .aedu {
+    margin-top: -5px;
+    border: 1px solid black;
+}
+
+
+#cvBody {
+    width: 800px;             
+    min-height: 1100px;       
+    margin: 20px auto;        
+    padding: 30px;            
+    background: white;       
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);  
+    border: 1px solid #ccc;   
+}
+
+.onehr {
+    margin-top: -5px;
+    border: 1px solid black;
+    position: relative;
+    top: -18px;
+}
